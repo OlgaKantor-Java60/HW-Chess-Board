@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.desk {
+    margin: 5px;
+    padding: 10px;
+    width: 820px;
+    height: auto;
+    background: #5f5245;
+}
+
+.line {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;  
+    align-content: center;
+    gap: 5px;
+}
+
+.desk>:first-child{
+    margin-top: 0px;
+}
+
+.desk>:nth-child(odd)>:nth-child(odd){
+    background: rgb(50, 25, 0);
+}
+.desk>:nth-child(even)>:nth-child(even){
+    background: rgb(50, 25, 0);
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    background: rgb(198, 170, 141);
+}
