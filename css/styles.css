@@ -1,26 +1,26 @@
-* {
+body {
+    display: flex;
+    height: 100vh;
     margin: 0;
 }
 
 .board {
-    margin: 5px;
-    padding: 10px;
-    width: 820px;
-    height: auto;
+    margin: auto;
+    padding: 5px;
     background: #5f5245;
 }
 
 .line {
-    margin-top: 5px;
+    margin-top: 2px;
     display: flex;
     align-items: center;  
-    align-content: center;
-    gap: 5px;
+    justify-content: center;
+    gap: 2px;
 }
 
 .cell {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background: rgb(198, 170, 141);
 }
 
